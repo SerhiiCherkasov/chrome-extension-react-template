@@ -55,7 +55,6 @@ Your React app should now be loaded as a Chrome extension!
 
 ## 🗂️ Project Structure
 
-- `public/`: Contains static files and the `manifest.json`.
 - `src/`: Contains the React app source code.
 - `vite.config.ts`: Vite configuration file.
 - `tsconfig.json`: TypeScript configuration file.

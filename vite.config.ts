@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { viteStaticCopy } from 'vite-plugin-static-copy';
+// import { crx } from '@crxjs/vite-plugin'
+// import manifest from './manifest.config'
 
 export default defineConfig({
   plugins: [
@@ -8,7 +10,7 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'public/manifest.json',
+          src: './manifest.json',
           dest: '.',
         }
       ],
